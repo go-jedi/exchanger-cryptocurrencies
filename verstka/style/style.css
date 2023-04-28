@@ -1,0 +1,5732 @@
+@charset "UTF-8";
+body {
+  background: url("../img/backtab.jpg");
+  background-size: cover;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav-menu-mobile {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 10000;
+}
+
+.nav-menu-mobile__close {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.nav-menu-mobile__content {
+  padding: 35px;
+}
+
+.nav-menu-mobile__content_item:not(:first-child) {
+  margin-top: 50px;
+}
+
+.nav-menu-mobile__content_item_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.nav-menu-mobile__content_item_text_active {
+  background: url("../img/menu_li_background.png") no-repeat center;
+  background-size: 80px 80px;
+}
+
+.nav-menu-mobile__content_item_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 35px;
+  font-size: 18px;
+  font: 18px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+  text-transform: uppercase;
+}
+
+.nav-menu-mobile__content_item_text:hover {
+  background: url("../img/menu_li_background.png") no-repeat center;
+  background-size: 80px 80px;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 0;
+}
+
+.main-header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header-left__telegram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 14px;
+}
+
+.main-header-left__telegram_text_link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.main-header-left__telegram_text_link:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  color: #ffc512;
+}
+
+.main-header-left__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 8px;
+  padding: 0 14px;
+}
+
+.main-header-left__email_text_link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+}
+
+.main-header-left__email_text_link:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  color: #ffc512;
+}
+
+.main-header-right__signin {
+  padding: 0 20px 0 0;
+}
+
+.main-header-right__signin_link {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.main-header-right__signin_link:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  color: #ffc512;
+}
+
+.main-header-right__signup {
+  padding: 0 20px 0 0;
+}
+
+.main-header-right__signup_link {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.main-header-right__signup_link:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  color: #ffc512;
+}
+
+.main-header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 42px;
+}
+
+.main-mobile-nav {
+  display: none;
+}
+
+.main-mobile-nav > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.main-mobile-nav__text {
+  margin-left: 5px;
+  font-size: 12px;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+  text-decoration: none;
+}
+
+.main-nav__left {
+  padding: 17px 0;
+}
+
+.main-nav__left_img > img {
+  width: 220px;
+  height: 50.58px;
+}
+
+.main-nav__right_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-nav__right_link:not(:last-child):after {
+  content: "•";
+}
+
+.main-nav__right_link > a {
+  font: 300 17px/40px "Segoe UI", sans-serif;
+  padding: 50px 20px;
+  font-size: 17px;
+  color: #2a2a2a;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.main-nav__right_link > a:hover {
+  background: url("../img/menu_li_background.png") no-repeat center;
+  background-size: 80px 80px;
+}
+
+.main-nav__right_link_active > a {
+  background: url("../img/menu_li_background.png") no-repeat center;
+  background-size: 80px 80px;
+}
+
+.main-home-crypto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0 0;
+}
+
+.main-home-left {
+  width: 432px;
+}
+
+.main-home-left__title {
+  font: 300 36px/40px "Segoe UI", sans-serif;
+  padding: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+
+.main-home-left__select {
+  margin: 4px 4px 4px -4px;
+  padding: 20px 0;
+}
+
+.main-home-left__select_link {
+  padding: 20px 13px;
+  color: #2f3030;
+  text-decoration: none;
+  font-size: 12px;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+}
+
+.main-home-left__select_link:hover {
+  background: url("../img/menu_li_background.png") no-repeat center;
+  background-size: 50px 50px;
+}
+
+.main-home-left__select_link_active {
+  background: url("../img/menu_li_background.png") no-repeat center;
+  background-size: 50px 50px;
+}
+
+.main-home-left__wallets {
+  background-color: #fff;
+}
+
+.main-home-left__wallets_wall {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font: 100 16px/40px "Segoe UI";
+  padding: 6px 10px;
+  background-color: #fff;
+}
+
+.main-home-left__wallets_wall:not(:first-child) {
+  margin-top: 10px;
+}
+
+.main-home-left__wallets_wall:hover {
+  background-color: #f7d567;
+}
+
+.main-home-left__wallets_wall_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font: 100 16px/40px "Segoe UI";
+  padding: 6px 10px;
+  background-color: #f7d567;
+}
+
+.main-home-left__wallets_wall_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-home-left__wallets_wall_img {
+  margin-right: 10px;
+}
+
+.main-home-left__wallets_wall_img > img {
+  width: 32px;
+  height: 32px;
+}
+
+.main-home-left__wallets_wall_text {
+  font-size: 16px;
+}
+
+.main-home-left__wallets_wall_count {
+  float: right;
+  margin-right: 50px;
+  font-weight: 700;
+}
+
+.main-home-right {
+  width: 432px;
+}
+
+.main-home-right__title {
+  font: 300 36px/40px "Segoe UI", sans-serif;
+  padding: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+
+.main-home-right__select {
+  margin: 4px 4px 4px -4px;
+  padding: 20px 0;
+}
+
+.main-home-right__select_link {
+  padding: 20px 13px;
+  color: #2f3030;
+  text-decoration: none;
+  font-size: 12px;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+}
+
+.main-home-right__select_link:hover {
+  background: url("../img/menu_li_background.png") no-repeat center;
+  background-size: 50px 50px;
+}
+
+.main-home-right__select_link_active {
+  background: url("../img/menu_li_background.png") no-repeat center;
+  background-size: 50px 50px;
+}
+
+.main-home-right__wallets {
+  background-color: #fff;
+}
+
+.main-home-right__wallets_wall {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font: 100 16px/40px "Segoe UI";
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+.main-home-right__wallets_wall:not(:first-child) {
+  margin-top: 10px;
+}
+
+.main-home-right__wallets_wall:hover {
+  background-color: #f7d567;
+}
+
+.main-home-right__wallets_wall_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font: 100 16px/40px "Segoe UI";
+  padding: 6px 10px;
+}
+
+.main-home-right__wallets_wall_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-home-right__wallets_wall_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.main-home-right__wallets_wall_img {
+  margin-right: 10px;
+}
+
+.main-home-right__wallets_wall_img > img {
+  width: 32px;
+  height: 32px;
+}
+
+.main-home-right__wallets_wall_text {
+  font-size: 16px;
+}
+
+.main-home-right__wallets_wall_info {
+  margin-top: -23px;
+  font-size: 12px;
+}
+
+.main-home-right__wallets_wall_count {
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.main-home-right__wallets_wall_price {
+  margin-top: -23px;
+  font: 10px/45px "Segoe UI";
+}
+
+.main-home-cryptoinfo {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 50px -15px RGB(0 0 0/22%);
+          box-shadow: 0 10px 50px -15px RGB(0 0 0/22%);
+  padding: 20px 60px;
+}
+
+.main-home-cryptoinfo__title {
+  margin: 0 0 20px 0;
+  color: #000;
+  font: 300 36px/40px "Segoe UI", sans-serif;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.main-home-cryptoinfo__left > img {
+  float: left;
+  margin: 10px 50px 30px 0;
+}
+
+.main-home-cryptoinfo__right_text {
+  padding: 0 0 20px 0;
+  font-size: 14px;
+  font: 300 14px "Segoe UI", sans-serif;
+}
+
+.main-home-cryptoinfo__right_texttwo {
+  padding: 0 0 20px 0;
+  font-size: 14px;
+  font: 300 14px "Segoe UI", sans-serif;
+}
+
+.main-home-cryptoinfo__right_textthree {
+  padding: 0 0 20px 0;
+  font-size: 14px;
+  font: 300 14px "Segoe UI", sans-serif;
+}
+
+.main-home-reserves {
+  padding: 20px 35px;
+}
+
+.main-home-reserves__title {
+  margin: 0 0 20px;
+  color: #000;
+  font: 300 36px/40px "Segoe UI", sans-serif;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.main-home-reserves__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-home-reserves__content_wall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px 10px 0;
+  padding: 10px;
+  width: 206.89px;
+  background: #fff;
+}
+
+.main-home-reserves__content_wall:hover {
+  background-color: #f0f5f3;
+}
+
+.main-home-reserves__content_wall_info {
+  margin-left: 5px;
+}
+
+.main-home-reserves__content_wall_title {
+  font: 600 14px "Segoe UI", sans-serif;
+}
+
+.main-home-reserves__content_wall_text {
+  color: #545454;
+  font: 14px "Segoe UI", sans-serif;
+}
+
+.main-home-reviews {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 50px -15px RGB(0 0 0/22%);
+          box-shadow: 0 10px 50px -15px RGB(0 0 0/22%);
+  padding: 20px 35px 0;
+}
+
+.main-home-reviews__title {
+  margin: 0 0 20px;
+  padding-top: 10px;
+  color: #000;
+  font: 300 36px/40px "Segoe UI", sans-serif;
+  text-transform: uppercase;
+}
+
+.main-home-reviews__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-home-reviews__content_rev {
+  padding: 10px;
+  width: 210px;
+  min-height: 135px;
+  text-align-last: left;
+  -o-border-image: url("../img/border_rewv.png") 0 fill;
+     border-image: url("../img/border_rewv.png") 0 fill;
+}
+
+.main-home-reviews__content__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-home-reviews__content__title_name {
+  margin: 0 0 5px;
+  font-size: 12px;
+  font: 300 12px "Segoe UI", sans-serif;
+  color: #000;
+}
+
+.main-home-reviews__content__title_time {
+  margin: 0 0 5px;
+  font-size: 10px;
+  font: 300 10px "Segoe UI", sans-serif;
+  color: #000;
+}
+
+.main-home-reviews__content__text {
+  font-size: 12px;
+  font: 300 12px "Segoe UI", sans-serif;
+  color: #000;
+}
+
+.main-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 34px 0;
+}
+
+.main-links > a {
+  width: 82px;
+}
+
+.main-links > a:not(:first-child) {
+  margin-left: 25px;
+}
+
+.container-login {
+  max-width: 610px;
+}
+
+.main-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 40px 30px 25px 30px;
+}
+
+.main-login-left__title {
+  margin: 0 0 25px;
+  font: 300 23px/26px "Segoe UI";
+  color: #929292;
+  text-transform: uppercase;
+}
+
+.main-login-left__info {
+  padding: 0 0 20px;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-login-left__form_login {
+  padding: 8px 0;
+}
+
+.main-login-left__form_login_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-login-left__form_login_label > span {
+  color: #ff0000;
+}
+
+.main-login-left__form_login_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-login-left__form_login_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-login-left__form_password {
+  padding: 8px 0;
+}
+
+.main-login-left__form_password_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-login-left__form_password_label > span {
+  color: #ff0000;
+}
+
+.main-login-left__form_password_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-login-left__form_password_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-login-left__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 0;
+}
+
+.main-login-left__form_options_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-login-left__form_options_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-login-left__form_options_opt {
+  margin-left: 20px;
+}
+
+.main-login-left__form_options_opt > div {
+  cursor: pointer;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #ffc512;
+}
+
+.main-login-left__form_options_opt > div:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-login-left__regtitle {
+  margin: 20px 0 10px 0;
+  font: 600 15px "Segoe UI";
+  color: #929292;
+}
+
+.main-login-left__regtext {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-login-left__regtext > a {
+  text-decoration: none;
+  text-transform: none;
+  color: #ffc512;
+}
+
+.main-login-left__regtext > a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-login-left__partnertitle {
+  margin: 20px 0 10px 0;
+  font: 600 15px "Segoe UI";
+  color: #929292;
+}
+
+.main-login-left__partnertext {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-login-left__otherstext {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-login-right__title {
+  margin: 0 -30px 0;
+  padding: 20px 30px 25px;
+  font: 600 18px/20px "Segoe UI";
+  color: #929292;
+}
+
+.main-login-right__form_login {
+  padding: 0 0 20px 0;
+}
+
+.main-login-right__form_login_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-login-right__form_login_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-login-right__form_password {
+  padding: 0 0 20px 0;
+}
+
+.main-login-right__form_password_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-login-right__form_password_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-login-right__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-login-right__form_options > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-login-right__form_options > a:hover {
+  color: #ffc512;
+  text-decoration: underline;
+}
+
+.main-login-right__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  margin: 20px -30px 0;
+}
+
+.main-login-right__form_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-login-right__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.container-register {
+  max-width: 610px;
+}
+
+.main-register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 40px 30px 25px 30px;
+}
+
+.main-register-left__title {
+  margin: 0 0 25px;
+  font: 300 23px/26px "Segoe UI";
+  color: #929292;
+  text-transform: uppercase;
+}
+
+.main-register-left__form_login {
+  padding: 8px 0;
+}
+
+.main-register-left__form_login_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-register-left__form_login_label > span {
+  color: #ff0000;
+}
+
+.main-register-left__form_login_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-register-left__form_login_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-register-left__form_email {
+  padding: 8px 0;
+}
+
+.main-register-left__form_email_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-register-left__form_email_label > span {
+  color: #ff0000;
+}
+
+.main-register-left__form_email_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-register-left__form_email_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-register-left__form_password {
+  padding: 8px 0;
+}
+
+.main-register-left__form_password_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-register-left__form_password_label > span {
+  color: #ff0000;
+}
+
+.main-register-left__form_password_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-register-left__form_password_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-register-left__form_passwordag {
+  padding: 8px 0;
+}
+
+.main-register-left__form_passwordag_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-register-left__form_passwordag_label > span {
+  color: #ff0000;
+}
+
+.main-register-left__form_passwordag_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-register-left__form_passwordag_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-register-left__form_agree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: 13px/18px "Segoe UI", sans-serif;
+  padding: 8px 0;
+}
+
+.main-register-left__form_agree_checkbox > input {
+  background-color: red;
+}
+
+.main-register-left__form_agree_info {
+  margin-left: 5px;
+}
+
+.main-register-left__form_agree_info > a {
+  text-decoration: none;
+  color: #ffc512;
+}
+
+.main-register-left__form_agree_info > a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-register-left__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 0;
+}
+
+.main-register-left__form_btn_submit > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-register-left__form_btn_submit > button:hover {
+  background-color: #ffc512;
+}
+
+.main-register-left__form_btn_auth {
+  margin-left: 20px;
+}
+
+.main-register-left__form_btn_auth > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  text-decoration: none;
+  text-transform: none;
+  color: #ffc512;
+}
+
+.main-register-left__form_btn_auth > a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-register-right__title {
+  margin: 0 -30px 0;
+  padding: 20px 30px 25px;
+  font: 600 18px/20px "Segoe UI";
+  color: #929292;
+}
+
+.main-register-right__form_login {
+  padding: 0 0 20px 0;
+}
+
+.main-register-right__form_login_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-register-right__form_login_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-register-right__form_password {
+  padding: 0 0 20px 0;
+}
+
+.main-register-right__form_password_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-register-right__form_password_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-register-right__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-register-right__form_options > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-register-right__form_options > a:hover {
+  color: #ffc512;
+  text-decoration: underline;
+}
+
+.main-register-right__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  margin: 20px -30px 0;
+}
+
+.main-register-right__form_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-register-right__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.container-reviews {
+  max-width: 610px;
+}
+
+.main-reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 40px 30px 25px 30px;
+}
+
+.main-reviews-left {
+  max-width: 610px;
+}
+
+.main-reviews-left__title {
+  margin: 0 0 25px;
+  font: 300 23px/26px "Segoe UI";
+  color: #929292;
+  text-transform: uppercase;
+}
+
+.main-reviews-left__form_name {
+  padding: 8px 0;
+}
+
+.main-reviews-left__form_name_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-reviews-left__form_name_label > span {
+  color: #ff0000;
+}
+
+.main-reviews-left__form_name_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-reviews-left__form_name_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-reviews-left__form_email {
+  padding: 8px 0;
+}
+
+.main-reviews-left__form_email_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-reviews-left__form_email_label > span {
+  color: #ff0000;
+}
+
+.main-reviews-left__form_email_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-reviews-left__form_email_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-reviews-left__form_message {
+  padding: 8px 0;
+}
+
+.main-reviews-left__form_message_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-reviews-left__form_message_label > span {
+  color: #ff0000;
+}
+
+.main-reviews-left__form_message_textarea > textarea {
+  overflow: hidden;
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 150px;
+  min-height: 150px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-reviews-left__form_message_textarea > textarea:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-reviews-left__form_btn {
+  padding: 8px 0;
+}
+
+.main-reviews-left__form_btn > button {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background-color: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-reviews-left__form_btn > button:hover {
+  background-color: #ffc512;
+}
+
+.main-reviews-left__answers {
+  padding-top: 30px;
+}
+
+.main-reviews-left__answers_person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #e0e8ed;
+}
+
+.main-reviews-left__answers_person_left {
+  width: 150px;
+}
+
+.main-reviews-left__answers_person_left_date {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #484747;
+  padding: 0 0 3px 0;
+}
+
+.main-reviews-left__answers_person_left_name {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #ffc512;
+  text-transform: uppercase;
+}
+
+.main-reviews-left__answers_person_right {
+  width: 100%;
+}
+
+.main-reviews-left__answers_person_right_message {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  padding: 3px 0;
+  color: #545454;
+}
+
+.main-reviews-right__form_login {
+  padding: 0 0 20px 0;
+}
+
+.main-reviews-right__form_login_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-reviews-right__form_login_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-reviews-right__form_password {
+  padding: 0 0 20px 0;
+}
+
+.main-reviews-right__form_password_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-reviews-right__form_password_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-reviews-right__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-reviews-right__form_options > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-reviews-right__form_options > a:hover {
+  color: #ffc512;
+  text-decoration: underline;
+}
+
+.main-reviews-right__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  margin: 20px -30px 0;
+}
+
+.main-reviews-right__form_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-reviews-right__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 40px 30px 25px 30px;
+}
+
+.container-partners {
+  max-width: 610px;
+}
+
+.main-partners-left__title {
+  margin: 0 0 25px;
+  font: 300 23px/26px "Segoe UI";
+  color: #929292;
+  text-transform: uppercase;
+}
+
+.main-partners-left__one {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-partners-left__two {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-partners-left__three {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-partners-left__program > a {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #ffc512;
+  text-decoration: none;
+}
+
+.main-partners-left__program > a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.main-partners-right__title {
+  margin: 0 -30px 0;
+  padding: 20px 30px 25px;
+  font: 600 18px/20px "Segoe UI";
+  color: #929292;
+}
+
+.main-partners-right__form_login {
+  padding: 0 0 20px 0;
+}
+
+.main-partners-right__form_login_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-partners-right__form_login_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-partners-right__form_password {
+  padding: 0 0 20px 0;
+}
+
+.main-partners-right__form_password_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-partners-right__form_password_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-partners-right__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-partners-right__form_options > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-partners-right__form_options > a:hover {
+  color: #ffc512;
+  text-decoration: underline;
+}
+
+.main-partners-right__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  margin: 20px -30px 0;
+}
+
+.main-partners-right__form_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-partners-right__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 40px 30px 25px 30px;
+}
+
+.container-contacts {
+  max-width: 610px;
+}
+
+.main-contacts-left__title {
+  margin: 0 0 25px;
+  font: 300 23px/26px "Segoe UI";
+  color: #929292;
+  text-transform: uppercase;
+}
+
+.main-contacts-left__one {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-contacts-left__two {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-contacts-left__three {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-contacts-left__three > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #ffc512;
+  text-decoration: none;
+}
+
+.main-contacts-left__three > a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.main-contacts-left__form_name {
+  padding: 8px 0;
+}
+
+.main-contacts-left__form_name_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-contacts-left__form_name_label > span {
+  color: #ff0000;
+}
+
+.main-contacts-left__form_name_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-contacts-left__form_name_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-contacts-left__form_email {
+  padding: 8px 0;
+}
+
+.main-contacts-left__form_email_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-contacts-left__form_email_label > span {
+  color: #ff0000;
+}
+
+.main-contacts-left__form_email_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-contacts-left__form_email_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-contacts-left__form_id {
+  padding: 8px 0;
+}
+
+.main-contacts-left__form_id_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-contacts-left__form_id_label > span {
+  color: #ff0000;
+}
+
+.main-contacts-left__form_id_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-contacts-left__form_id_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-contacts-left__form_message {
+  padding: 8px 0;
+}
+
+.main-contacts-left__form_message_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-contacts-left__form_message_label > span {
+  color: #ff0000;
+}
+
+.main-contacts-left__form_message_textarea > textarea {
+  overflow: hidden;
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 150px;
+  min-height: 150px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-contacts-left__form_message_textarea > textarea:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-contacts-left__form_btn {
+  padding: 8px 0;
+}
+
+.main-contacts-left__form_btn > button {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background-color: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-contacts-left__form_btn > button:hover {
+  background-color: #ffc512;
+}
+
+.main-contacts-right__title {
+  margin: 0 -30px 0;
+  padding: 20px 30px 25px;
+  font: 600 18px/20px "Segoe UI";
+  color: #929292;
+}
+
+.main-contacts-right__form_login {
+  padding: 0 0 20px 0;
+}
+
+.main-contacts-right__form_login_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-contacts-right__form_login_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-contacts-right__form_password {
+  padding: 0 0 20px 0;
+}
+
+.main-contacts-right__form_password_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-contacts-right__form_password_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-contacts-right__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-contacts-right__form_options > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-contacts-right__form_options > a:hover {
+  color: #ffc512;
+  text-decoration: underline;
+}
+
+.main-contacts-right__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  margin: 20px -30px 0;
+}
+
+.main-contacts-right__form_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-contacts-right__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-rates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 40px 30px 25px 30px;
+}
+
+.container-rates {
+  max-width: 610px;
+}
+
+.main-rates-left__title {
+  margin: 0 0 25px;
+  font: 300 23px/26px "Segoe UI";
+  color: #929292;
+  text-transform: uppercase;
+}
+
+.main-rates-left__content:not(:first-child) {
+  margin-top: 35px;
+}
+
+.main-rates-left__info {
+  display: inline-block;
+  min-width: 115px;
+  font: 100 18px "Segoe UI";
+  color: #fff;
+  padding: 5px 15px;
+  background: #ffc512;
+  margin: 0 0 15px 0;
+}
+
+.main-rates-left__table_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 610px;
+  background-color: #f5f5f5;
+}
+
+.main-rates-left__table_header_trfirst {
+  font: 300 16px "Segoe UI";
+  color: #929293;
+  padding: 10px 5px;
+  background: #f5f5f5;
+  text-align: left;
+  border-top: 1px solid #ebebeb;
+  text-transform: uppercase;
+}
+
+.main-rates-left__table_header_trsecond {
+  font: 300 16px "Segoe UI";
+  color: #929293;
+  padding: 10px 5px;
+  background: #f5f5f5;
+  text-align: left;
+  border-top: 1px solid #ebebeb;
+  text-transform: uppercase;
+}
+
+.main-rates-left__table_header_trthird {
+  margin-right: 50px;
+  font: 300 16px "Segoe UI";
+  color: #929293;
+  padding: 10px 5px;
+  background: #f5f5f5;
+  text-align: left;
+  border-top: 1px solid #ebebeb;
+  text-transform: uppercase;
+}
+
+.main-rates-left__table_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.main-rates-left__table_content:not(:first-child) {
+  border-top: 1px solid #c4c4c454;
+}
+
+.main-rates-left__table_content_give {
+  color: #393f4f;
+  min-width: 120px;
+  font: 100 13px/40px "Segoe UI";
+}
+
+.main-rates-left__table_content_get {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-rates-left__table_content_get > div {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-rates-left__table_content_get_title {
+  margin-left: 15px;
+}
+
+.main-rates-left__table_content_get_text {
+  margin-left: 15px;
+}
+
+.main-rates-left__table_content_reserve {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-rates-right__title {
+  margin: 0 -30px 0;
+  padding: 20px 30px 25px;
+  font: 600 18px/20px "Segoe UI";
+  color: #929292;
+}
+
+.main-rates-right__form_login {
+  padding: 0 0 20px 0;
+}
+
+.main-rates-right__form_login_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-rates-right__form_login_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-rates-right__form_password {
+  padding: 0 0 20px 0;
+}
+
+.main-rates-right__form_password_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-rates-right__form_password_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-rates-right__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-rates-right__form_options > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-rates-right__form_options > a:hover {
+  color: #ffc512;
+  text-decoration: underline;
+}
+
+.main-rates-right__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  margin: 20px -30px 0;
+}
+
+.main-rates-right__form_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-rates-right__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-exchange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 960px;
+  margin: 0 0 30px;
+  padding: 40px 0 25px;
+}
+
+.main-exchange-info {
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 50px -15px RGB(0 0 0/22%);
+          box-shadow: 0 10px 50px -15px RGB(0 0 0/22%);
+}
+
+.main-exchange-info__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: 300 24px/26px "Segoe UI";
+  color: #000;
+  padding: 20px 30px;
+  background: #f5f5f5;
+}
+
+.main-exchange-info__content {
+  background: #fff url("../img/vopr.png") no-repeat 100px 18px;
+  padding: 15px 50px 15px 140px;
+}
+
+.main-exchange-info__content_title {
+  font: 100 18px "Segoe UI";
+  margin: 0 0 5px 0;
+}
+
+.main-exchange-info__content_textone {
+  padding: 5px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-info__content_texttwo {
+  padding: 5px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-info__content_textthree {
+  padding: 5px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-info__content_textfour {
+  padding: 5px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-info__content_textfive {
+  padding: 5px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-info__content_textsix {
+  padding: 5px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+  font-weight: bold;
+}
+
+.main-exchange-info__content_textseven {
+  padding: 5px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-info__content_textseven > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #ffc512;
+  text-decoration: none;
+}
+
+.main-exchange-info__content_textseven > a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-exchange-exc {
+  width: 670px;
+  margin: 20px auto;
+}
+
+.main-exchange-give__title {
+  color: #929292;
+  font: 600 18px "Segoe UI";
+}
+
+.main-exchange-give__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.main-exchange-give__choice {
+  position: relative;
+}
+
+.main-exchange-give__choice > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  width: 330px;
+  height: 40px;
+  background: url("../img/rselect.png") no-repeat right center;
+  border: 1px solid #5454542e;
+  background-color: #fff;
+}
+
+.main-exchange-give__choice > button:hover {
+  background-color: #54545400;
+}
+
+.main-exchange-give__choice > button > img {
+  width: 40px;
+  height: 40px;
+}
+
+.main-exchange-give__choice > button > div {
+  margin-left: 5px;
+  font: 100 16px/40px "Segoe UI";
+  color: #545454;
+}
+
+.main-exchange-give__cryptos {
+  position: absolute;
+  display: none;
+  z-index: 5;
+  float: none;
+  top: 40px;
+  left: 0;
+  width: 330px;
+  border-radius: 4px;
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 180px;
+  max-width: 330px;
+  border: 1px solid #d2d2d2;
+}
+
+.main-exchange-give__cryptos_cryptact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 330px;
+  height: 40px;
+  background-color: #fff;
+  border-right: 1px solid #d2d2d2;
+  text-decoration: none;
+}
+
+.main-exchange-give__cryptos_cryptact > img {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.main-exchange-give__cryptos_cryptact > div {
+  font: 100 16px/40px "Segoe UI";
+  color: #ff7f66;
+}
+
+.main-exchange-give__cryptos_crypt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 330px;
+  height: 40px;
+  background-color: #fff;
+  border-right: 1px solid #d2d2d2;
+  text-decoration: none;
+}
+
+.main-exchange-give__cryptos_crypt:hover div {
+  color: #ff7f66;
+}
+
+.main-exchange-give__cryptos_crypt > img {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.main-exchange-give__cryptos_crypt > div {
+  font: 100 16px/40px "Segoe UI";
+  color: #545454;
+}
+
+.main-exchange-give__sum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-exchange-give__sum_title {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  padding: 12px 10px 0 15px;
+  vertical-align: top;
+  color: #545454;
+}
+
+.main-exchange-give__sum_input {
+  margin-left: 30px;
+}
+
+.main-exchange-give__sum_input > input {
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-exchange-give__sum_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-exchange-give__sum_input > div {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  text-align: right;
+  color: red;
+}
+
+.main-exchange-get__title {
+  color: #929292;
+  font: 600 18px "Segoe UI";
+}
+
+.main-exchange-get__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.main-exchange-get__choice {
+  position: relative;
+}
+
+.main-exchange-get__choice > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  width: 330px;
+  height: 40px;
+  background: url("../img/rselect.png") no-repeat right center;
+  border: 1px solid #5454542e;
+  background-color: #fff;
+}
+
+.main-exchange-get__choice > button:hover {
+  background-color: #54545400;
+}
+
+.main-exchange-get__choice > button > img {
+  width: 40px;
+  height: 40px;
+}
+
+.main-exchange-get__choice > button > div {
+  margin-left: 5px;
+  font: 100 16px/40px "Segoe UI";
+  color: #545454;
+}
+
+.main-exchange-get__cryptos {
+  position: absolute;
+  display: none;
+  z-index: 5;
+  float: none;
+  top: 40px;
+  left: 0;
+  width: 330px;
+  border-radius: 4px;
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 180px;
+  max-width: 330px;
+  border: 1px solid #d2d2d2;
+}
+
+.main-exchange-get__cryptos_cryptact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 330px;
+  height: 40px;
+  background-color: #fff;
+  border-right: 1px solid #d2d2d2;
+  text-decoration: none;
+}
+
+.main-exchange-get__cryptos_cryptact > img {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.main-exchange-get__cryptos_cryptact > div {
+  font: 100 16px/40px "Segoe UI";
+  color: #ff7f66;
+}
+
+.main-exchange-get__cryptos_crypt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 330px;
+  height: 40px;
+  background-color: #fff;
+  border-right: 1px solid #d2d2d2;
+  text-decoration: none;
+}
+
+.main-exchange-get__cryptos_crypt:hover div {
+  color: #ff7f66;
+}
+
+.main-exchange-get__cryptos_crypt > img {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.main-exchange-get__cryptos_crypt > div {
+  font: 100 16px/40px "Segoe UI";
+  color: #545454;
+}
+
+.main-exchange-get__sum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-exchange-get__sum_title {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  padding: 12px 10px 0 15px;
+  vertical-align: top;
+  color: #545454;
+}
+
+.main-exchange-get__sum_input {
+  margin-left: 30px;
+}
+
+.main-exchange-get__sum_input > input {
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #eaeaea;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-exchange-get__sum_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-exchange-get__sum_input > div {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  text-align: right;
+  color: red;
+}
+
+.main-exchange-get__address_label {
+  font: 13px "Segoe UI";
+  padding: 0 0 2px 2px;
+  color: #545454;
+}
+
+.main-exchange-get__address_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 330px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-exchange-get__address_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-exchange-data {
+  margin-top: 20px;
+}
+
+.main-exchange-data__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #e7e8eb;
+  border-top: 1px solid #e7e8eb;
+  max-width: 100%;
+  padding: 20px 30px;
+  background: #f5f5f5;
+}
+
+.main-exchange-data__content_email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-exchange-data__content_email_label {
+  width: 100px;
+  font: 100 13px "Segoe UI";
+  vertical-align: top;
+}
+
+.main-exchange-data__content_email_input {
+  position: relative;
+}
+
+.main-exchange-data__content_email_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 310px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-exchange-data__content_email_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-exchange-data__content_email_input_help {
+  position: absolute;
+  z-index: 2;
+  float: none;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  display: none;
+  padding: 10px 15px;
+  overflow: hidden;
+  border-radius: 4px;
+  color: #fff;
+  font: 300 11px "Segoe UI";
+  background: #ffc512;
+}
+
+.main-exchange-data__content_telegram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.main-exchange-data__content_telegram_label {
+  width: 100px;
+  font: 100 13px "Segoe UI";
+  vertical-align: top;
+}
+
+.main-exchange-data__content_telegram_input {
+  position: relative;
+}
+
+.main-exchange-data__content_telegram_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 310px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-exchange-data__content_telegram_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-exchange-data__content_telegram_input_help {
+  position: absolute;
+  z-index: 2;
+  float: none;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  display: none;
+  padding: 10px 15px;
+  overflow: hidden;
+  border-radius: 4px;
+  color: #fff;
+  font: 300 11px "Segoe UI";
+  background: #ffc512;
+}
+
+.main-exchange-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.main-exchange-btn > button {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-exchange-btn > button:hover {
+  background-color: #ffc512;
+}
+
+.main-exchange-finishinfo {
+  margin-top: 50px;
+  max-width: 960px;
+  background: #fff;
+  border-radius: 4px;
+  padding: 25px 30px 25px;
+  -webkit-box-shadow: 0 2px 4px #c4c2c2;
+  box-shadow: 0 2px 4px #c4c2c2;
+}
+
+.main-exchange-finishinfo__title {
+  font: 600 22px/26px "Segoe UI";
+  color: #929292;
+}
+
+.main-exchange-finishinfo__textone {
+  margin-top: 20px;
+  padding: 0 0 10px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-finishinfo__punkts {
+  margin: 0 0 10px 20px;
+  padding: 10px 0 0 0;
+}
+
+.main-exchange-finishinfo__punkts_text {
+  display: block;
+  background: url(../img/wliarr.png) no-repeat 0 3px;
+  padding: 0 0 5px 15px;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-finishinfo__texttwo {
+  margin-top: 10px;
+  padding: 0 0 10px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-finishinfo__textthree {
+  padding: 0 0 10px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-exchange-finishinfo__textfour {
+  padding: 0 0 10px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 950px;
+  margin: 0 0 30px;
+  padding: 40px 0 25px;
+}
+
+.main-pay-info {
+  background: #fff;
+  padding: 40px 70px;
+  text-align: justify;
+  -webkit-box-shadow: 0 0 15px RGB(207 207 207);
+          box-shadow: 0 0 15px RGB(207 207 207);
+}
+
+.main-pay-info__title {
+  text-align: center;
+  font: 19px/1.5em "Segoe UI", sans-serif;
+  font-weight: 400;
+  color: #545454;
+}
+
+.main-pay-info__warning {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font: 17px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-info__textone {
+  margin: 8px 0;
+  font: 14px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-info__texttwo {
+  margin: 8px 0;
+  font: 14px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-info__textthree {
+  margin: 8px 0;
+  font: 14px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-info__textfour {
+  margin: 8px 0;
+  font: 14px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-info__textfive {
+  margin: 8px 0;
+  font: 14px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-info__textsix {
+  margin: 8px 0;
+  font: 14px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+  font-weight: 700;
+}
+
+.main-pay-info__textseven {
+  margin: 8px 0;
+  font: 14px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-info__textseven > a {
+  color: #ffc512;
+  text-decoration: none;
+}
+
+.main-pay-info__textseven > a:hover {
+  color: #545454;
+  text-decoration: underline;
+}
+
+.main-pay-content {
+  padding: 15px 20px;
+}
+
+.main-pay-content__title {
+  font: 18px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+  font-weight: 700;
+}
+
+.main-pay-content__info {
+  margin: 15px 0;
+  font: 14px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-content__window {
+  background: #ffffff90;
+  text-align: right;
+  padding: 10px 20px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.main-pay-content__window_sum {
+  font: 15px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-content__window_sumcount {
+  font: 15px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-content__window_where {
+  font: 15px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-content__window_address {
+  font: 15px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+  font-weight: 700;
+}
+
+.main-pay-content__window_btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main-pay-content__window_btn > button {
+  height: 40px;
+  width: 200px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 0;
+  background: #e4e4e4;
+  cursor: pointer;
+  color: #585858;
+  font-size: 13px;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+}
+
+.main-pay-content__window_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-pay-content__infopay_one {
+  margin: 15px 0;
+  font: 13px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-content__infopay_two {
+  margin: 15px 0;
+  font: 13px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-content__infopay_three {
+  margin: 15px 0;
+  font: 13px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-pay-content__infopay__btncancel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: 15px;
+}
+
+.main-pay-content__infopay__btncancel > button {
+  width: 180px;
+  height: 35px;
+  margin-right: 0;
+  border: none;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: RGB(255, 130, 130);
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-pay-content__infopay__btncancel > button:hover {
+  background: RGB(255 85 85);
+}
+
+.main-rules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 40px 30px 25px 30px;
+}
+
+.container-rules {
+  max-width: 610px;
+}
+
+.main-rules-left__title {
+  margin: 0 0 25px;
+  font: 300 23px/26px "Segoe UI";
+  color: #929292;
+  text-transform: uppercase;
+}
+
+.main-rules-left__content_title {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+  padding: 0 0 20px 0;
+  font-weight: 600;
+}
+
+.main-rules-left__content_text {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+  padding: 0 0 20px 0;
+}
+
+.main-rules-right__title {
+  margin: 0 -30px 0;
+  padding: 20px 30px 25px;
+  font: 600 18px/20px "Segoe UI";
+  color: #929292;
+}
+
+.main-rules-right__form_login {
+  padding: 0 0 20px 0;
+}
+
+.main-rules-right__form_login_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-rules-right__form_login_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-rules-right__form_password {
+  padding: 0 0 20px 0;
+}
+
+.main-rules-right__form_password_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-rules-right__form_password_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-rules-right__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-rules-right__form_options > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-rules-right__form_options > a:hover {
+  color: #ffc512;
+  text-decoration: underline;
+}
+
+.main-rules-right__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  margin: 20px -30px 0;
+}
+
+.main-rules-right__form_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-rules-right__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 40px 30px 25px 30px;
+}
+
+.container-faq {
+  max-width: 610px;
+}
+
+.main-faq-left__title {
+  margin: 0 0 25px;
+  font: 300 23px/26px "Segoe UI";
+  color: #929292;
+  text-transform: uppercase;
+}
+
+.main-faq-left__content_title {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+  font-weight: 600;
+}
+
+.main-faq-left__content_text {
+  padding: 0 0 20px 0;
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #545454;
+}
+
+.main-faq-left__content_text > a {
+  color: #ffc512;
+  text-decoration: none;
+}
+
+.main-faq-left__content_text > a:hover {
+  color: #545454;
+  text-decoration: underline;
+}
+
+.main-faq-right__title {
+  margin: 0 -30px 0;
+  padding: 20px 30px 25px;
+  font: 600 18px/20px "Segoe UI";
+  color: #929292;
+}
+
+.main-faq-right__form_login {
+  padding: 0 0 20px 0;
+}
+
+.main-faq-right__form_login_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-faq-right__form_login_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-faq-right__form_password {
+  padding: 0 0 20px 0;
+}
+
+.main-faq-right__form_password_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-faq-right__form_password_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-faq-right__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-faq-right__form_options > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-faq-right__form_options > a:hover {
+  color: #ffc512;
+  text-decoration: underline;
+}
+
+.main-faq-right__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  margin: 20px -30px 0;
+}
+
+.main-faq-right__form_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-faq-right__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-recovery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  padding: 40px 30px 65px 30px;
+}
+
+.container-recovery {
+  max-width: 610px;
+}
+
+.main-recovery-left__title {
+  margin: 0 0 25px;
+  font: 300 23px/26px "Segoe UI";
+  color: #929292;
+  text-transform: uppercase;
+}
+
+.main-recovery-left__form_name {
+  padding: 8px 0;
+}
+
+.main-recovery-left__form_name_label {
+  padding: 0 0 3px;
+  font: 600 13px "Segoe UI", sans-serif;
+  color: #252927;
+}
+
+.main-recovery-left__form_name_label > span {
+  color: #ff0000;
+}
+
+.main-recovery-left__form_name_input > input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-recovery-left__form_name_input > input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-recovery-left__form_btn {
+  margin-top: 8px;
+}
+
+.main-recovery-left__form_btn > button {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-recovery-left__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-recovery-right__title {
+  margin: 0 -30px 0;
+  padding: 20px 30px 25px;
+  font: 600 18px/20px "Segoe UI";
+  color: #929292;
+}
+
+.main-recovery-right__form_login {
+  padding: 0 0 20px 0;
+}
+
+.main-recovery-right__form_login_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-recovery-right__form_login_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-recovery-right__form_password {
+  padding: 0 0 20px 0;
+}
+
+.main-recovery-right__form_password_input {
+  outline: none;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  opacity: 0.75;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #545454;
+  font: 13px/40px "Segoe UI", sans-serif;
+}
+
+.main-recovery-right__form_password_input:focus {
+  border: 1px solid #00cccb;
+}
+
+.main-recovery-right__form_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-recovery-right__form_options > a {
+  font: 12px/1.5em "Segoe UI", sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-recovery-right__form_options > a:hover {
+  color: #ffc512;
+  text-decoration: underline;
+}
+
+.main-recovery-right__form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 20px;
+  margin: 20px -30px 0;
+}
+
+.main-recovery-right__form_btn > button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: #e4e4e4;
+  height: 40px;
+  font: 100 14px/40px "Segoe UI", serif;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.main-recovery-right__form_btn > button:hover {
+  background: #ffc512;
+}
+
+.main-footer {
+  padding: 15px 0 20px;
+  background: #bebbbb;
+  width: 100%;
+  font: 12px "Segoe UI", sans-serif;
+}
+
+.main-footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-footer-left__title {
+  font: 12px "Segoe UI", sans-serif;
+  color: #fff;
+  padding: 0 0 20px;
+}
+
+.main-footer-left__links_link {
+  color: #fff;
+  font: italic 12px "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+
+.main-footer-left__links_link:not(:first-child) {
+  margin-left: 10px;
+}
+
+.main-footer-left__links_link:hover {
+  text-decoration: underline;
+}
+
+.main-footer-right__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-footer-right__top > div {
+  margin-left: 20px;
+  font-size: 18px;
+  font: 600 18px/27px "Segoe UI", sans-serif;
+  color: #fff;
+}
+
+.main-footer-right__bottom {
+  margin-top: 15px;
+}
+
+.main-footer-right__bottom_start {
+  color: #fff;
+}
+
+.main-footer-right__bottom_end {
+  color: #fff;
+}
+
+@media (max-width: 926px) {
+  .container {
+    max-width: 838px;
+  }
+  .main-header-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .main-header-left__email {
+    margin-left: 0;
+  }
+  .main-header-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+  .main-mobile-nav {
+    display: block;
+  }
+  .main-nav__right {
+    display: none;
+  }
+  .main-home-left {
+    width: 362px;
+  }
+  .main-home-right {
+    width: 362px;
+  }
+  .main-nav__left_img > img {
+    width: 80px;
+    height: 18.39px;
+  }
+  .main-home-left__title {
+    font-size: 24px;
+    text-align: start;
+  }
+  .main-home-left__wallets_wall_count {
+    display: none;
+  }
+  .main-home-left__wallets_wall {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 110px;
+  }
+  .main-home-left__wallets_wall:not(:first-child) {
+    margin-top: 20px;
+  }
+  .main-home-left__wallets_wall_left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-home-right__title {
+    font-size: 24px;
+    text-align: start;
+  }
+  .main-home-right__wallets_wall {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 110px;
+  }
+  .main-home-right__wallets_wall:not(:first-child) {
+    margin-top: 20px;
+  }
+  .main-home-right__wallets_wall_left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-home-right__wallets_wall_right {
+    display: none;
+  }
+  .main-home-cryptoinfo__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 24px;
+  }
+  .main-home-cryptoinfo__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-home-cryptoinfo__left > img {
+    float: none;
+    width: 377.38px;
+    height: 284.17px;
+  }
+  .main-home-reserves__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-home-reserves__content_wall {
+    width: 320px;
+    height: 101px;
+  }
+  .main-home-reviews__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 24px;
+  }
+  .main-home-reviews__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-home-reviews__content_rev {
+    width: 100%;
+    min-height: 104px;
+  }
+  .main-home-reviews__content__title_name {
+    font-size: 16px;
+  }
+  .main-home-reviews__content__title_time {
+    font-size: 16px;
+  }
+  .main-home-reviews__content__text {
+    font-size: 14px;
+  }
+  .main-home-reviews {
+    padding: 20px 35px 35px;
+  }
+  .container-login {
+    max-width: 754px;
+  }
+  .main-login {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-login-left__info {
+    font: 16px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-left__form_login_input > input {
+    width: 100%;
+  }
+  .main-login-left__form_password_input > input {
+    width: 100%;
+  }
+  .main-login-left__form_options_btn > button {
+    border-radius: 6px;
+    height: auto;
+    font: 100 16px / normal "Segoe UI", serif;
+    padding: 14px 30px;
+    width: 100%;
+  }
+  .main-login-left__form_options_opt > div {
+    font: 16px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-right {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .main-login-right__form_login_input {
+    width: 100%;
+  }
+  .main-login-right__form_password_input {
+    width: 100%;
+  }
+  .main-login-right__form_btn > button {
+    width: 100%;
+  }
+  .main-register-right__form_login_input {
+    width: 100%;
+  }
+  .main-reviews {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-reviews-left__form_name_input > input {
+    width: 100%;
+  }
+  .main-reviews-left__form_email_input > input {
+    width: 100%;
+  }
+  .main-reviews-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .main-partners {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-partners-right {
+    margin-top: 60px;
+  }
+  .main-contacts {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-contacts-right {
+    margin-top: 50px;
+  }
+  .main-rates {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-rates-right {
+    margin-top: 50px;
+  }
+  .main-exchange-info__content {
+    background: #fff url(../img/vopr.png) no-repeat 110px 18px;
+    padding: 15px;
+  }
+  .main-exchange-give__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-exchange-get__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-rules {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-rules-right {
+    margin-top: 40px;
+  }
+  .main-faq {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-faq-right {
+    margin-top: 40px;
+  }
+  .main-recovery {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-links {
+    margin-top: 60px;
+  }
+  .main-footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-footer-left {
+    margin-top: 15px;
+  }
+  .main-footer-center {
+    margin-top: 25px;
+  }
+  .main-footer-right {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 844px) {
+  .container {
+    max-width: 763px;
+  }
+}
+
+@media (max-width: 834px) {
+  .container {
+    max-width: 754.77px;
+  }
+  .main-header-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .main-header-left__email {
+    margin-left: 0;
+  }
+  .main-header-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+  .main-mobile-nav {
+    display: block;
+  }
+  .main-nav__right {
+    display: none;
+  }
+  .main-home-left {
+    width: 362px;
+  }
+  .main-home-right {
+    width: 362px;
+  }
+  .main-nav__left_img > img {
+    width: 80px;
+    height: 18.39px;
+  }
+  .main-home-left__title {
+    font-size: 24px;
+    text-align: start;
+  }
+  .main-home-left__wallets_wall_count {
+    display: none;
+  }
+  .main-home-left__wallets_wall {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 110px;
+  }
+  .main-home-left__wallets_wall:not(:first-child) {
+    margin-top: 20px;
+  }
+  .main-home-left__wallets_wall_left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-home-right__title {
+    font-size: 24px;
+    text-align: start;
+  }
+  .main-home-right__wallets_wall {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 110px;
+  }
+  .main-home-right__wallets_wall:not(:first-child) {
+    margin-top: 20px;
+  }
+  .main-home-right__wallets_wall_left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-home-right__wallets_wall_right {
+    display: none;
+  }
+  .main-home-cryptoinfo__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 24px;
+  }
+  .main-home-cryptoinfo__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-home-cryptoinfo__left > img {
+    float: none;
+    width: 377.38px;
+    height: 284.17px;
+  }
+  .main-home-reserves__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-home-reserves__content_wall {
+    width: 320px;
+    height: 101px;
+  }
+  .main-home-reviews__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 24px;
+  }
+  .main-home-reviews__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-home-reviews__content_rev {
+    width: 100%;
+    min-height: 104px;
+  }
+  .main-home-reviews__content__title_name {
+    font-size: 16px;
+  }
+  .main-home-reviews__content__title_time {
+    font-size: 16px;
+  }
+  .main-home-reviews__content__text {
+    font-size: 14px;
+  }
+  .main-home-reviews {
+    padding: 20px 35px 35px;
+  }
+  .container-login {
+    max-width: 754px;
+  }
+  .main-login {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-login-left__info {
+    font: 16px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-left__form_login_input > input {
+    width: 100%;
+  }
+  .main-login-left__form_password_input > input {
+    width: 100%;
+  }
+  .main-login-left__form_options_btn > button {
+    border-radius: 6px;
+    height: auto;
+    font: 100 16px / normal "Segoe UI", serif;
+    padding: 14px 30px;
+    width: 100%;
+  }
+  .main-login-left__form_options_opt > div {
+    font: 16px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-right {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .main-login-right__form_login_input {
+    width: 100%;
+  }
+  .main-login-right__form_password_input {
+    width: 100%;
+  }
+  .main-login-right__form_btn > button {
+    width: 100%;
+  }
+  .main-register {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-register-left__form_login_input > input {
+    width: 100%;
+  }
+  .main-register-left__form_email_input > input {
+    width: 100%;
+  }
+  .main-register-left__form_password_input > input {
+    width: 100%;
+  }
+  .main-register-left__form_passwordag_input > input {
+    width: 100%;
+  }
+  .main-links {
+    margin-top: 60px;
+  }
+  .main-footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-footer-left {
+    margin-top: 15px;
+  }
+  .main-footer-center {
+    margin-top: 25px;
+  }
+  .main-footer-right {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 820px) {
+  .main-exchange-give__sum_input > div {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+}
+
+@media (max-width: 780px) {
+  .container {
+    max-width: 705.89px;
+  }
+  .main-home-left {
+    width: 340px;
+  }
+  .main-home-right {
+    width: 340px;
+  }
+  .main-home-reserves__content_wall {
+    width: 280px;
+    height: 101px;
+  }
+  .container-login {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 695px;
+  }
+  .main-home-left {
+    width: 333px;
+  }
+  .main-home-right {
+    width: 333px;
+  }
+  .main-home-reserves__content_wall {
+    width: 290px;
+    height: 95px;
+  }
+  .main-links {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width: 736px) {
+  .main-exchange-exc {
+    width: 600px;
+  }
+  .main-exchange-give__choice > button {
+    width: 600px;
+  }
+  .main-exchange-give__sum {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .main-exchange-get__choice > button {
+    width: 600px;
+  }
+  .main-exchange-get__sum {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .main-exchange-get__address_input > input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 667px) {
+  .container {
+    max-width: 603px;
+  }
+  .main-home-left {
+    width: 295px;
+  }
+  .main-home-right {
+    width: 295px;
+  }
+  .main-home-reserves__content_wall {
+    width: 237px;
+    height: 95px;
+  }
+  .container-login {
+    max-width: 548px;
+  }
+  .main-rates-left__table_header_trthird {
+    display: none;
+  }
+  .main-rates-left__table_content_reserve {
+    display: none;
+  }
+  .main-exchange-exc {
+    width: 100%;
+  }
+  .main-exchange-give__choice > button {
+    width: 540px;
+  }
+  .main-exchange-get__choice > button {
+    width: 540px;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    max-width: 514px;
+  }
+  .main-home-left__title {
+    font-size: 20px;
+    text-align: start;
+  }
+  .main-home-right__title {
+    font-size: 20px;
+    text-align: start;
+  }
+  .main-home-left__select_link {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-home-right__select_link {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-home-right {
+    width: 250px;
+  }
+  .main-home-left {
+    width: 250px;
+  }
+  .main-home-cryptoinfo__left > img {
+    width: 307.38px;
+    height: 275.17px;
+  }
+  .main-home-cryptoinfo__title {
+    font-size: 20px;
+  }
+  .main-home-reserves__content_wall {
+    width: 197px;
+    height: 95px;
+  }
+  .main-register {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-register-right {
+    margin-top: 40px;
+  }
+  .main-reviews-left__answers_person {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-rates-left__table_header {
+    max-width: 480px;
+  }
+  .main-rates-left__table_content_give {
+    font: 100 11px/40px "Segoe UI";
+  }
+  .main-rates-left__table_content_get > div {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-faq-left__content_title {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+    font-weight: 600;
+  }
+  .main-faq-left__content_text {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-faq-right__form_login_input {
+    font: 12px/40px "Segoe UI", sans-serif;
+  }
+  .main-faq-right__form_password_input {
+    font: 12px/40px "Segoe UI", sans-serif;
+  }
+  .main-recovery {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-recovery-right {
+    margin-top: 50px;
+  }
+  .main-recovery-left__title {
+    font: 300 20px/26px "Segoe UI";
+  }
+  .main-recovery-left__form_name_input > input {
+    width: 100%;
+  }
+  .main-recovery-left__form_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-recovery-right__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-recovery-left__form_name_input > input {
+    font: 12px/40px "Segoe UI", sans-serif;
+  }
+  .main-recovery-right__form_login_input {
+    font: 12px/40px "Segoe UI", sans-serif;
+  }
+  .main-recovery-right__form_password_input {
+    font: 12px/40px "Segoe UI", sans-serif;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 452.5px;
+  }
+  .main-home-left {
+    width: 215px;
+  }
+  .main-home-right {
+    width: 215px;
+  }
+  .main-home-cryptoinfo__title {
+    font-size: 18px;
+  }
+  .main-home-cryptoinfo__left > img {
+    margin: 0;
+    width: 280.38px;
+    height: 260.17px;
+  }
+  .main-home-reserves__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 18px;
+  }
+  .main-home-reserves__content_wall {
+    width: 165px;
+    height: 95px;
+  }
+  .container-login {
+    max-width: 460px;
+  }
+  .main-rates-left__table_header {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 428px) {
+  .container {
+    max-width: 390px;
+  }
+  .main-nav {
+    margin-top: 12px;
+  }
+  .main-home-crypto {
+    padding: 10px 0 0;
+  }
+  .main-header-left__telegram_text_link {
+    font-size: 12px;
+  }
+  .main-header-left__email_text_link {
+    font-size: 12px;
+  }
+  .main-header-right__signin_link {
+    font-size: 12px;
+  }
+  .main-header-right__signup_link {
+    font-size: 12px;
+  }
+  .main-home-left {
+    width: 217.19px;
+  }
+  .main-home-left__title {
+    font-size: 18px;
+  }
+  .main-home-left__select_link {
+    font-size: 10px;
+  }
+  .main-home-left__select_link {
+    padding: 20px 8px;
+  }
+  .main-home-left__wallets_wall_text {
+    font-size: 13px;
+  }
+  .main-home-right {
+    width: 217.19px;
+  }
+  .main-home-right__title {
+    font-size: 18px;
+    text-align: end;
+  }
+  .main-home-right__select_link {
+    font-size: 10px;
+  }
+  .main-home-right__select_link {
+    padding: 20px 8px;
+  }
+  .main-home-right__wallets_wall_text {
+    font-size: 13px;
+  }
+  .main-home-right__wallets_wall_info {
+    font-size: 11px;
+  }
+  .main-home-right__wallets_wall_in {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-home-cryptoinfo {
+    padding: 20px 30px;
+  }
+  .main-home-cryptoinfo__title {
+    font-size: 18px;
+  }
+  .main-home-cryptoinfo__left > img {
+    margin: 0 0 10px 0;
+    width: 226.25px;
+    height: 170.26px;
+  }
+  .main-home-cryptoinfo__right_text {
+    font-size: 13px;
+  }
+  .main-home-cryptoinfo__right_texttwo {
+    font-size: 13px;
+  }
+  .main-home-cryptoinfo__right_textthree {
+    font-size: 13px;
+  }
+  .main-home-reserves__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font: 300 18px/40px "Segoe UI", sans-serif;
+    font-size: 18px;
+  }
+  .main-home-reserves__content_wall {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .main-home-reserves__content_wall {
+    width: 134px;
+    height: 110px;
+  }
+  .main-home-reserves__content_wall_img > img {
+    width: 30px;
+    height: 30px;
+  }
+  .main-home-reserves__content_wall_title {
+    font-size: 12px;
+    font: 600 12px "Segoe UI", sans-serif;
+  }
+  .main-home-reserves__content_wall_text {
+    font-size: 12px;
+    font: 12px "Segoe UI", sans-serif;
+  }
+  .main-home-reviews__title {
+    font-size: 18px;
+  }
+  .main-home-reviews__content__title_name {
+    font-size: 12px;
+  }
+  .main-home-reviews__content__title_time {
+    font-size: 12px;
+  }
+  .main-home-reviews__content__text {
+    font-size: 12px;
+  }
+  .main-login {
+    padding: 40px 0 0;
+  }
+  .container-login {
+    max-width: 390px;
+  }
+  .main-login-left__title {
+    font: 300 18px/26px "Segoe UI";
+  }
+  .main-login-left__info {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-left__form_login {
+    padding: 5px 0;
+  }
+  .main-login-left__form_login_label {
+    font: 600 11px "Segoe UI", sans-serif;
+  }
+  .main-login-left__form_password {
+    padding: 5px 0;
+  }
+  .main-login-left__form_password_label {
+    font: 600 11px "Segoe UI", sans-serif;
+  }
+  .main-login-left__form_options_btn > button {
+    font: 100 13px / normal "Segoe UI", serif;
+    padding: 14px 30px;
+  }
+  .main-login-left__form_options_opt > div {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-left__regtitle {
+    font: 600 13px "Segoe UI";
+  }
+  .main-login-left__regtext {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-left__partnertitle {
+    font: 600 13px "Segoe UI";
+  }
+  .main-login-left__partnertitle {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-left__otherstext {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-right__title {
+    font: 600 13px "Segoe UI";
+  }
+  .main-login-right__form_login_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-login-right__form_password_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-login-right__form_options > a {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-login-right__form_btn > button {
+    font: 100 13px/40px "Segoe UI", serif;
+  }
+  .main-register {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-register-right {
+    margin-top: 20px;
+  }
+  .main-reviews-left__answers_person {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-reviews-left__form_name_label {
+    font: 600 11px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_email_label {
+    font: 600 11px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_message_label {
+    font: 600 11px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_btn > button {
+    padding: 0 20px;
+    font: 100 11px/40px "Segoe UI", serif;
+  }
+  .main-reviews-left__answers_person_left_date {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__answers_person_left_name {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__answers_person_right_message {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-partners-left__title {
+    font: 300 18px/26px "Segoe UI";
+  }
+  .main-partners-left__one {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-partners-left__two {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-partners-left__three {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-partners-left__program > a {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-partners-right__form_login_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-partners-right__form_password_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-partners-right__title {
+    font: 600 16px/20px "Segoe UI";
+  }
+  .main-partners-right__form_btn > button {
+    font: 100 12px/40px "Segoe UI", serif;
+  }
+  .main-contacts-left__one {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-contacts-left__two {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-contacts-left__three {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-contacts-left__three > a {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-contacts-left__form_btn > button {
+    font: 100 12px/40px "Segoe UI", serif;
+  }
+  .main-rates-left__table_header_trthird {
+    display: none;
+  }
+  .main-rates-left__table_content_reserve {
+    display: none;
+  }
+  .main-rates-left__table_header {
+    max-width: 380px;
+  }
+  .main-rates-left__table_content_give {
+    font: 100 11px/40px "Segoe UI";
+  }
+  .main-rates-left__table_content_get_title {
+    margin-left: 0;
+    font: 12px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-rates-left__table_content_get > div {
+    font: 12px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-exc {
+    max-width: 360px;
+  }
+  .main-exchange-info__header {
+    font: 300 17px/26px "Segoe UI";
+  }
+  .main-exchange-info__content_textone {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_texttwo {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textthree {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textfour {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textfive {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textsix {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textseven {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textseven > a {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-give__choice > button {
+    width: 360px;
+  }
+  .main-exchange-give__sum {
+    margin-top: 20px;
+    width: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .main-exchange-give__sum_input {
+    margin-left: 10px;
+  }
+  .main-exchange-get__choice > button {
+    width: 360px;
+  }
+  .main-exchange-get__sum {
+    margin-top: 20px;
+    width: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .main-exchange-get__sum_input {
+    margin-left: 10px;
+  }
+  .main-exchange-get__address {
+    margin-top: 15px;
+  }
+  .main-exchange-get__address_label {
+    font: 12px "Segoe UI";
+  }
+  .main-exchange-get__address_input > input {
+    width: 100%;
+  }
+  .main-exchange-data__content_email_input > input {
+    width: 210px;
+  }
+  .main-exchange-data__content_telegram_input > input {
+    width: 210px;
+  }
+  .main-exchange-btn > button {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .main-exchange-finishinfo__title {
+    font: 600 17px/26px "Segoe UI";
+  }
+  .main-exchange-finishinfo__textone {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-finishinfo__punkts_text {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-finishinfo__texttwo {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-finishinfo__textthree {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-finishinfo__textfour {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info {
+    padding: 30px 20px;
+  }
+  .main-pay-info__title {
+    font: 16px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__warning {
+    font: 14px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textone {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__texttwo {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textthree {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textfour {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textfive {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textsix {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+    font-weight: 700;
+  }
+  .main-pay-info__textseven {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__title {
+    font: 16px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__info {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__window_sum {
+    font: 13px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__window_sumcount {
+    font: 13px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__window_where {
+    font: 13px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__window_address {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+    font-weight: 700;
+  }
+  .main-pay-content__window_btn > button {
+    height: 35px;
+    width: 170px;
+    font-size: 11px;
+  }
+  .main-pay-content__infopay_one {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__infopay_two {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__infopay_three {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__infopay__btncancel > button {
+    width: 160px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .main-rules-left__title {
+    font: 300 20px/26px "Segoe UI";
+  }
+  .main-rules-left__content_title {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+    font-weight: 600;
+  }
+  .main-rules-left__content_text {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-rules-right__form_login_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-rules-right__form_password_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-rules-right__form_options > a {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-faq-left__title {
+    font: 300 20px/26px "Segoe UI";
+  }
+  .main-faq-left__content_title {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+    font-weight: 600;
+  }
+  .main-faq-left__content_text {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-faq-right__form_password_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-faq-right__form_options > a {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-recovery-left__form_name_input > input {
+    font: 12px/40px "Segoe UI", sans-serif;
+  }
+  .main-recovery-right__form_login_input {
+    font: 12px/40px "Segoe UI", sans-serif;
+  }
+  .main-recovery-right__form_password_input {
+    font: 12px/40px "Segoe UI", sans-serif;
+  }
+  .main-recovery-right__form_options > a {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-footer-left__title {
+    font: 11px "Segoe UI", sans-serif;
+  }
+  .main-footer-left__links_link {
+    font: italic 11px "Segoe UI", sans-serif;
+  }
+  .main-footer-right__top > div {
+    margin-left: 10px;
+    font: 600 12px/27px "Segoe UI", sans-serif;
+  }
+  .main-footer-right__bottom_start {
+    font-size: 11px;
+  }
+  .main-footer-right__bottom_end {
+    font-size: 11px;
+  }
+  .main-faq-right__form_login_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    max-width: 380px;
+  }
+  .main-home-left {
+    width: 185.19px;
+  }
+  .main-home-right {
+    width: 185.19px;
+  }
+  .main-home-right__wallets_wall_text {
+    font-size: 11px;
+  }
+  .main-home-right__wallets_wall_info {
+    font-size: 9px;
+  }
+  .main-home-reserves__content_wall {
+    height: 97px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    max-width: 355px;
+  }
+  .main-header-left__telegram_text_link {
+    font-size: 11px;
+  }
+  .main-header-left__email_text_link {
+    font-size: 11px;
+  }
+  .main-header-left__signin_link {
+    font-size: 11px;
+  }
+  .main-home-left {
+    width: 173.19px;
+  }
+  .main-home-right {
+    width: 173.19px;
+  }
+  .main-home-left__title {
+    padding: 10px;
+  }
+  .main-home-left__select_link {
+    font-size: 9px;
+  }
+  .main-home-left__wallets_wall:not(:first-child) {
+    margin-top: 13px;
+  }
+  .main-header-right__signin_link {
+    font-size: 11px;
+  }
+  .main-home-right__title {
+    padding: 10px;
+  }
+  .main-home-right__select_link {
+    font-size: 9px;
+  }
+  .main-home-right__wallets_wall:not(:first-child) {
+    margin-top: 13px;
+  }
+  .main-home-cryptoinfo__title {
+    font-size: 18px;
+  }
+  .main-home-cryptoinfo__right_text {
+    font-size: 11px;
+  }
+  .main-home-cryptoinfo__right_texttwo {
+    font-size: 11px;
+  }
+  .main-home-cryptoinfo__right_textthree {
+    font-size: 11px;
+  }
+  .main-home-reserves__content_wall {
+    width: 127px;
+    height: 96px;
+  }
+  .main-home-reviews__content__title_name {
+    font-size: 10px;
+  }
+  .main-home-reviews__content__title_time {
+    font-size: 10px;
+  }
+  .main-home-reviews__content__text {
+    font-size: 10px;
+  }
+  .container-login {
+    max-width: 360px;
+  }
+  .main-partners-left__one {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-partners-left__two {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-partners-left__three {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-partners-left__program > a {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-contacts-left__form_name_input > input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-contacts-left__form_email_input > input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-contacts-left__form_id_input > input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-contacts-left__form_message_textarea > textarea {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-contacts-right__form_login_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-contacts-right__form_password_input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-rates-left__table_header {
+    max-width: 360px;
+  }
+  .main-rates-left__info {
+    font: 100 16px "Segoe UI";
+  }
+  .main-rates-left__table_header_trfirst {
+    font: 300 14px "Segoe UI";
+  }
+  .main-rates-left__table_header_trsecond {
+    font: 300 14px "Segoe UI";
+  }
+  .main-exchange-info__header {
+    font: 300 15px/26px "Segoe UI";
+  }
+  .main-exchange-info__content_textone {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_texttwo {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textthree {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textfour {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textfive {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textseven {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-info__content_textseven > a {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-exc {
+    max-width: 340px;
+  }
+  .main-exchange-give__choice > button {
+    width: 340px;
+  }
+  .main-exchange-give__choice > button > div {
+    font: 100 14px/40px "Segoe UI";
+  }
+  .main-exchange-give__sum_input > input {
+    width: 170px;
+    height: 35px;
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-exchange-give__sum_input > div {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-get__choice > button {
+    width: 340px;
+  }
+  .main-exchange-get__sum_input > input {
+    width: 170px;
+    height: 35px;
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-exchange-get__choice > button > div {
+    font: 100 14px/40px "Segoe UI";
+  }
+  .main-exchange-data__content_email_label {
+    font: 100 11px "Segoe UI";
+  }
+  .main-exchange-data__content_email_input > input {
+    width: 210px;
+    height: 35px;
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-exchange-data__content_telegram_label {
+    font: 100 11px "Segoe UI";
+  }
+  .main-exchange-data__content_telegram_input > input {
+    width: 210px;
+    height: 35px;
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-exchange-btn > button {
+    font: 100 12px/40px "Segoe UI", serif;
+  }
+  .main-exchange-finishinfo__title {
+    font: 600 15px/26px "Segoe UI";
+  }
+  .main-exchange-finishinfo__textone {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-finishinfo__punkts_text {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-finishinfo__texttwo {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-finishinfo__textthree {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-finishinfo__textfour {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__title {
+    font: 15px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__warning {
+    font: 13px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textone {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__texttwo {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textthree {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textfour {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textfive {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-info__textsix {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+    font-weight: 700;
+  }
+  .main-pay-info__textseven {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__title {
+    font: 15px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__info {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__window_sum {
+    font: 12px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__window_sumcount {
+    font: 12px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__window_where {
+    font: 12px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__window_address {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+    font-weight: 700;
+  }
+  .main-pay-content__window_btn > button {
+    height: 35px;
+    width: 170px;
+    font-size: 10px;
+  }
+  .main-pay-content__infopay_one {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__infopay_two {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__infopay_three {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-pay-content__infopay__btncancel > button {
+    width: 160px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .main-footer-left__title {
+    font: 10px "Segoe UI", sans-serif;
+  }
+  .main-footer-left__links_link {
+    font: italic 10px "Segoe UI", sans-serif;
+  }
+  .main-footer-right__top > div {
+    font: 600 10px/27px "Segoe UI", sans-serif;
+  }
+  .main-footer-center__img > a > img {
+    width: 30px;
+    height: 30px;
+  }
+  .main-footer-right__bottom_start {
+    font-size: 10px;
+  }
+  .main-footer-right__bottom_end {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container-login {
+    max-width: 355px;
+  }
+  .main-reviews-left__form_name_input > input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_email_input > input {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_message_textarea > textarea {
+    font: 11px/40px "Segoe UI", sans-serif;
+  }
+  .main-rates-left__table_header {
+    max-width: 340px;
+  }
+  .main-rates-left__table_content_get > div {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-faq-left__content_title {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+    font-weight: 600;
+  }
+  .main-faq-left__content_text {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    max-width: 333px;
+  }
+  .main-home-left {
+    width: 162.19px;
+  }
+  .main-home-right {
+    width: 162.19px;
+  }
+  .main-home-left__title {
+    padding: 7px;
+    font-size: 16px;
+  }
+  .main-home-left__select_link {
+    font-size: 8px;
+  }
+  .main-home-right__title {
+    padding: 7px;
+    font-size: 16px;
+  }
+  .main-home-right__select_link {
+    font-size: 8px;
+  }
+  .main-home-right__wallets_wall_text {
+    font-size: 11px;
+  }
+  .main-home-right__wallets_wall_info {
+    font-size: 9px;
+  }
+  .main-home-cryptoinfo {
+    padding: 15px 20px;
+  }
+  .main-home-cryptoinfo__title {
+    font-size: 15px;
+  }
+  .main-home-cryptoinfo__left > img {
+    width: 176.25px;
+    height: 160.26px;
+  }
+  .main-home-cryptoinfo__right_text {
+    font-size: 10px;
+  }
+  .main-home-cryptoinfo__right_texttwo {
+    font-size: 10px;
+  }
+  .main-home-cryptoinfo__right_textthree {
+    font-size: 10px;
+  }
+  .main-home-reserves__title {
+    font-size: 16px;
+    font: 300 16px/40px "Segoe UI", sans-serif;
+  }
+  .main-home-reserves__content_wall {
+    width: 115px;
+    height: 80px;
+  }
+  .main-home-reserves__content_wall_title {
+    font-size: 12px;
+    font: 600 10px "Segoe UI", sans-serif;
+  }
+  .main-home-reserves__content_wall_text {
+    font-size: 12px;
+    font: 10px "Segoe UI", sans-serif;
+  }
+  .main-home-reserves__content_wall_img > img {
+    width: 25px;
+    height: 25px;
+  }
+  .main-home-reviews__title {
+    font-size: 16px;
+  }
+  .main-login {
+    padding: 20px 0 0;
+  }
+  .container-login {
+    max-width: 340px;
+  }
+  .main-login-left__title {
+    font: 300 15px/26px "Segoe UI";
+  }
+  .main-reviews-left__form_name_label {
+    font: 600 11px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_email_label {
+    font: 600 11px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_message_label {
+    font: 600 11px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_btn > button {
+    padding: 0 20px;
+    font: 100 11px/40px "Segoe UI", serif;
+  }
+  .main-reviews-left__answers_person_left_date {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__answers_person_left_name {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__answers_person_right_message {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-rates-left__table_header {
+    max-width: 330px;
+  }
+  .main-rates-left__table_content_get > div {
+    font: 11px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-rates-left__table_header_trfirst {
+    font: 300 13px "Segoe UI";
+  }
+  .main-rates-left__table_header_trsecond {
+    font: 300 13px "Segoe UI";
+  }
+  .main-exchange-exc {
+    max-width: 300px;
+  }
+  .main-exchange-give__title {
+    font: 600 15px "Segoe UI";
+  }
+  .main-exchange-give__choice > button {
+    width: 300px;
+  }
+  .main-exchange-give__choice > button > div {
+    font: 100 13px/40px "Segoe UI";
+  }
+  .main-exchange-get__title {
+    font: 600 15px "Segoe UI";
+  }
+  .main-exchange-get__choice > button > div {
+    font: 100 13px/40px "Segoe UI";
+  }
+  .main-exchange-get__choice > button {
+    width: 300px;
+  }
+  .main-exchange-data__content_email_label {
+    width: 70px;
+  }
+  .main-exchange-data__content_email_input > input {
+    width: 180px;
+  }
+  .main-exchange-data__content_telegram_label {
+    width: 70px;
+  }
+  .main-exchange-data__content_telegram_input > input {
+    width: 180px;
+  }
+  .main-exchange-finishinfo__title {
+    font: 600 14px/26px "Segoe UI";
+  }
+  .main-rules-left__content_title {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+    font-weight: 600;
+  }
+  .main-rules-left__content_text {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-faq-left__content_title {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+    font-weight: 600;
+  }
+  .main-faq-left__content_text {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-faq-right__form_login_input {
+    font: 10px/40px "Segoe UI", sans-serif;
+  }
+  .main-faq-right__form_password_input {
+    font: 10px/40px "Segoe UI", sans-serif;
+  }
+  .main-recovery-left__title {
+    font: 300 17px/26px "Segoe UI";
+  }
+  .main-recovery-right__title {
+    font: 600 17px/20px "Segoe UI";
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+  }
+  .main-header-left__telegram_text_link {
+    font-size: 9px;
+  }
+  .main-header-left__email_text_link {
+    font-size: 9px;
+  }
+  .main-header-right__signin_link {
+    font-size: 9px;
+  }
+  .main-header-right__signup_link {
+    font-size: 9px;
+  }
+  .main-home-left {
+    width: 145.19px;
+  }
+  .main-home-left__title {
+    padding: 6px;
+    font-size: 14px;
+  }
+  .main-home-left__select_link {
+    font-size: 7px;
+  }
+  .main-home-left__wallets_wall_text {
+    font-size: 11px;
+  }
+  .main-home-right {
+    width: 145.19px;
+  }
+  .main-home-right__title {
+    padding: 6px;
+    font-size: 14px;
+  }
+  .main-home-right__select_link {
+    font-size: 7px;
+  }
+  .main-home-right__wallets_wall_text {
+    font-size: 10px;
+  }
+  .main-home-right__wallets_wall_info {
+    font-size: 8px;
+  }
+  .main-home-cryptoinfo__title {
+    font-size: 13px;
+  }
+  .main-home-cryptoinfo__left > img {
+    width: 146.25px;
+    height: 140.26px;
+  }
+  .main-home-cryptoinfo__right_text {
+    font-size: 9px;
+  }
+  .main-home-cryptoinfo__right_texttwo {
+    font-size: 9px;
+  }
+  .main-home-cryptoinfo__right_textthree {
+    font-size: 9px;
+  }
+  .main-home-reserves__title {
+    font: 300 14px/40px "Segoe UI", sans-serif;
+  }
+  .main-home-reserves__content_wall {
+    width: 100px;
+    height: 73px;
+  }
+  .main-home-reviews__title {
+    font-size: 14px;
+  }
+  .container-login {
+    max-width: 300px;
+  }
+  .main-reviews-left__form_name_label {
+    font: 600 10px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_email_label {
+    font: 600 10px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_message_label {
+    font: 600 10px "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__form_btn > button {
+    padding: 0 20px;
+    font: 100 10px/40px "Segoe UI", serif;
+  }
+  .main-reviews-left__answers_person_left_date {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__answers_person_left_name {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-reviews-left__answers_person_right_message {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-rates-left__table_header {
+    max-width: 300px;
+  }
+  .main-rates-left__table_content_give {
+    font: 100 10px/40px "Segoe UI";
+  }
+  .main-rates-left__table_content_get > div {
+    font: 10px/1.5em "Segoe UI", sans-serif;
+  }
+  .main-exchange-exc {
+    max-width: 290px;
+  }
+  .main-exchange-give__choice > button {
+    width: 290px;
+  }
+  .main-exchange-get__choice > button {
+    width: 290px;
+  }
+  .main-pay-content__window_address {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+    font-weight: 700;
+  }
+  .main-faq-left__title {
+    font: 300 18px/26px "Segoe UI";
+  }
+  .main-faq-left__content_title {
+    font: 9px/1.5em "Segoe UI", sans-serif;
+    font-weight: 600;
+  }
+  .main-faq-left__content_text {
+    font: 8px/1.5em "Segoe UI", sans-serif;
+  }
+}
